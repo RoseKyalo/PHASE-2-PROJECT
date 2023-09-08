@@ -14,10 +14,9 @@ RASB-berry Property Investors, a real estate investing business is seeking to ex
 
 
 ## Business Understanding
-![img](./Media/RASB-berry.png)
 In this phase of expansion, RASB-berry Property Investors seeks to enter the realestate market of the pacific northwest, and specifically Seattle Washington and the surrounding area (i.e. Kings County). Before begining any projects in the area, RPI decision makers need to better understand how to determine the opportunity cost, and potential returns for any investments made in Kings County, as well as how to maximize those returns. The oportunity cost and potential returns can indeed be determined by understanding how time, physical location, and physical condition and property attributes all affect the price of a real estate property. 
 
-Therefore, this anaylisis will seek to build a statistical model that is informative as far as specifiying what metrics to use and how strong each metric may be in terms of predicting the market value of a real estate property.
+Therefore, this anaylsis will seek to build a statistical model that is informative as far as specifiying what metrics to use and how strong each metric may be in terms of predicting the market value of a real estate property.
 
 
 
