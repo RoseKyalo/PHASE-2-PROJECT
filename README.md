@@ -6,6 +6,7 @@
 4. BRYTONE OMARE
 
 ## Insights on Property Investment Profitability
+![Image Alt Text](/image/RASB-berry.png)
 <img src="./image/RASB-berry.png" alt="RASB Berry Image" width="900" height="500" class="blog-image">
 
 
