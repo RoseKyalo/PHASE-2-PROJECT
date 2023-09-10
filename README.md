@@ -28,7 +28,7 @@ RASB-berry Property investors are looking to optimize their investment strategie
 The dataset contains information about real estate properties in King County, consisting of 21 columns. These columns provide details such as property price, number of bedrooms, bathrooms, square footage, floors, waterfront status, condition, grade, and more. Some columns have missing values, like 'yr_renovated' and 'waterfront.' This dataset is valuable for analyzing the factors influencing property prices and making informed investment decisions in the King County real estate market.
 
 ## Methodology<a name="methodology"></a>
-To help RASB investors make informed decisions, we're using multiple linear regression analysis. Our goal is to build a predictive model for house prices in King County.
+To help RASB-berry Property investors make informed decisions, we're using multiple linear regression analysis. Our goal is to build a predictive model for house prices in King County.
 
 We're focusing on sale prices and studying how they relate to various property attributes. We'll use regression models to quantify these relationships and provide insights for RASB-berry Property Investors.
 
@@ -39,7 +39,7 @@ In this analysis, we developed three models: a baseline model (model 1), model 2
 
 However, model 3 stands out. It boasts a higher R-squared value, indicating improved performance and statistical significance. When we evaluated this model, it exhibited lower MAE, MSE, and RMSE values, indicating better predictive accuracy. 
 
-We strongly recommend RASB investors use this model for predicting sale prices due to its superior performance.
+We strongly recommend RASB-berry Property investors use this model for predicting sale prices due to its superior performance.
 
 ### Key takeways:
 Overall Model Significance: The model as a whole is statistically significant, indicated by the low p-value of the F-statistic (p < 0.001). This suggests that at least one of the independent variables has a significant impact on housing prices.
@@ -75,7 +75,7 @@ Condition and Grade Influence Price: The condition and grade of a property are i
 Budget Planning: With an average housing price of approximately $541,317.18, investors should budget and plan their investments accordingly.
 
    ### Recomendations<a name="recommendations"></a>
-Here are the key recommendations and conclusions for RASB investors based on our analysis:
+Here are the key recommendations and conclusions for RASB-berry Property investors based on our analysis:
 
 Model Selection: We recommend using the third model as it demonstrates superior predictive accuracy with lower Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE) compared to the other two models.
 
