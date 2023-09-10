@@ -127,14 +127,14 @@ The analysis was conducted using Python with the following libraries:
    
    ## Folder Structure<a name="folder-structure"></a>
 - data
-    -kc_house_data
-    -column_names
+-kc_house_data
+-column_names
 -Property Investment Profitability Analysis.ipynb
 -Non-Technical Presentation
-    -Phase II Slides.pptx
-    -Phase II Slides.pdf
+-Phase II Slides.pptx
+-Phase II Slides.pdf
 -image/
-    -RASB - berry.png
+-RASB - berry.png
 - map.html
 - map_with_clustered_prices.html
 - Property Investment Profitability Analysis.pdf    
