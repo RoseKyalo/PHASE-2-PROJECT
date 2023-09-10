@@ -1,14 +1,13 @@
-# PHASE-2-PROJECT
-
+# PHASE II PROJECT
 **Authors** : 
-- ROSE KYALO
-- STACY KIRIIRI
-- ANGEL ATUNGIRE
-- BRYTONE OMARE
+1. ROSE KYALO
+2. STACY KIRIIRI
+3. ANGEL ATUNGIRE
+4. BRYTONE OMARE
 
+## Insights on Property Investment Profitability
+<img src="./image/RASB-berry.png" alt="RASB Berry Image" width="900" height="500" class="blog-image">
 
-# King County House Sales Analysis for RASB-berry Property Investors
-<img src="./Media/RASB-berry.png" alt="alt text" width="900" height="500" class="blog-image">
 
 ## Overview
 
