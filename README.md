@@ -87,6 +87,37 @@ Diversification: Consider diversifying your real estate investments across diffe
 Stay Informed: Continuously monitor local market trends, economic conditions, and regulations to make informed investment decisions.
 
 Budget Planning: Given the average housing price of approximately $541,317.18, plan your investments accordingly and ensure your budget aligns with market conditions.
+## LIMITATIONS<a name="Limitations"></a>
+Limited Feature Set: The dataset may not include all the relevant features or variables that influence property prices. Other important factors, such as neighborhood crime rates, school quality, and proximity to amenities, may not be present in the dataset.
+Temporal Data: The dataset may not include data on important temporal factors like economic conditions, interest rates, or changes in local regulations that can affect property prices.
+
+Sample Size: The dataset's size may be limited, which can affect the robustness of predictive models, especially if you're working with small subsets of data.
+
+Bias: The data may contain bias in terms of property types, locations, or price ranges, which can impact the generalizability of predictive models to other real estate markets.
+
+Categorical Data: The dataset might have categorical variables that require encoding or transformation to be used effectively in predictive models.
+
+Non-Stationarity: Real estate data often exhibits non-stationarity, meaning that trends and relationships can change over time. Accounting for this can be challenging.
+
+Seasonality: Real estate markets can have seasonal patterns that are not explicitly captured in the dataset. For example, housing prices may vary based on the time of year.
+
+Model Complexity: Depending on the complexity of the problem you're trying to solve, linear models or basic machine learning algorithms may not capture intricate patterns in the data.
+
+Data Imbalance: If the dataset has an imbalanced distribution of target variables (e.g., a few high-value properties and many low-value properties), it can lead to modeling challenges.
+
+Generalization: The dataset may represent a specific geographic area or time period. Models built on this data may not generalize well to different regions or time frames.
+
+External Factors: Real estate prices can be influenced by external factors such as economic recessions or natural disasters, which may not be accounted for in the dataset.
+
+To address these limitations and improve the accuracy of predictive projects, you can consider:
+
+Collecting additional data from various sources to supplement the dataset.
+Performing feature engineering to create new informative features.
+
+
+
+
+
 
   ## Dependecies<a name="dependecies"></a>
 The analysis was conducted using Python with the following libraries:
