@@ -88,6 +88,8 @@ Stay Informed: Continuously monitor local market trends, economic conditions, an
 
 Budget Planning: Given the average housing price of approximately $541,317.18, plan your investments accordingly and ensure your budget aligns with market conditions.
 ## LIMITATIONS<a name="Limitations"></a>
+here are some of the limitations that we found when going through the data:
+
 Limited Feature Set: The dataset may not include all the relevant features or variables that influence property prices. Other important factors, such as neighborhood crime rates, school quality, and proximity to amenities, may not be present in the dataset.
 Temporal Data: The dataset may not include data on important temporal factors like economic conditions, interest rates, or changes in local regulations that can affect property prices.
 
