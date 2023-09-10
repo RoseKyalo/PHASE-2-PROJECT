@@ -127,7 +127,7 @@ The analysis was conducted using Python with the following libraries:
    
    ## Folder Structure<a name="folder-structure"></a>
 
-|- data/
+1. data/
 
     |- kc_house_data
     |- column_names
