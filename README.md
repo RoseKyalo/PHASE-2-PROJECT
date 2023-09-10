@@ -147,7 +147,6 @@ The analysis was conducted using Python with the following libraries:
 |- Property Investment Profitability Analysis.pdf    
 |- README.md
 
-Our Drafts folder contains our thought process and analysis on how we reached the final .ipynb file.
 
 ### Installation<a name="installation"></a>
 
