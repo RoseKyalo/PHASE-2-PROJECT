@@ -17,7 +17,7 @@
 - [License](#license)
 
 ## Project Overview<a name="project-overview"></a>
-In this project, we're diving deep into the King County House Sales dataset to understand what makes properties profitable in King County's real estate market. Our main aim is to provide valuable insights to RASB-berry Property Investors who want to make smart investment decisions. We'll be looking at various aspects of properties, like their size, number of bedrooms, and condition, to see which factors have the most impact on the sale prices of houses. By doing this, we hope to help RASB-berry investors optimize their strategies and increase their chances of getting better returns in the King County real estate market.
+In this project, we're diving deep into the [King County House](map.html) Sales dataset to understand what makes properties profitable in King County's real estate market. Our main aim is to provide valuable insights to RASB-berry Property Investors who want to make smart investment decisions. We'll be looking at various aspects of properties, like their size, number of bedrooms, and condition, to see which factors have the most impact on the sale prices of houses. By doing this, we hope to help RASB-berry investors optimize their strategies and increase their chances of getting better returns in the King County real estate market.
 
 ## Business Problem<a name="business-problem"></a>
 ### Stakeholder: RASB-berry Property Investors
