@@ -10,6 +10,7 @@
 - [Conclusion](#conclusion)
    - [Key Findings](#key-findings)
    - [Recommendations](#recommendations)
+   - [Limitations](#limitations)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dependecies](#dependecies)
@@ -87,8 +88,8 @@ Diversification: Consider diversifying your real estate investments across diffe
 Stay Informed: Continuously monitor local market trends, economic conditions, and regulations to make informed investment decisions.
 
 Budget Planning: Given the average housing price of approximately $541,317.18, plan your investments accordingly and ensure your budget aligns with market conditions.
-## LIMITATIONS<a name="Limitations"></a>
-here are some of the limitations that we found when going through the data:
+## Limitations<a name="limitations"></a>
+Some of the limitations of the analysis were:
 
 Limited Feature Set: The dataset may not include all the relevant features or variables that influence property prices. Other important factors, such as neighborhood crime rates, school quality, and proximity to amenities, may not be present in the dataset.
 Temporal Data: The dataset may not include data on important temporal factors like economic conditions, interest rates, or changes in local regulations that can affect property prices.
@@ -96,8 +97,6 @@ Temporal Data: The dataset may not include data on important temporal factors li
 Sample Size: The dataset's size may be limited, which can affect the robustness of predictive models, especially if you're working with small subsets of data.
 
 Bias: The data may contain bias in terms of property types, locations, or price ranges, which can impact the generalizability of predictive models to other real estate markets.
-
-Categorical Data: The dataset might have categorical variables that require encoding or transformation to be used effectively in predictive models.
 
 Non-Stationarity: Real estate data often exhibits non-stationarity, meaning that trends and relationships can change over time. Accounting for this can be challenging.
 
@@ -115,11 +114,6 @@ To address these limitations and improve the accuracy of predictive projects, yo
 
 Collecting additional data from various sources to supplement the dataset.
 Performing feature engineering to create new informative features.
-
-
-
-
-
 
   ## Dependecies<a name="dependecies"></a>
 The analysis was conducted using Python with the following libraries:
@@ -167,11 +161,7 @@ The analysis was conducted using Python with the following libraries:
    cd PHASE-2-PROJECT
    ```
 
-3. Install the required Python packages:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
+3. Install the required Python packages
 
 ## Usage<a name="usage"></a>
 
