@@ -132,20 +132,22 @@ The analysis was conducted using Python with the following libraries:
     |- kc_house_data
     |- column_names
     
-|- analysis/
+|- Property Investment Profitability Analysis.ipynb
 
-    |- Property Investment Profitability Analysis
-    
+|- Non Technical Presentation
+
+      |- Phase II Slides.pptx
+      |- Phase II Slides.pdf
 |- image/
 
     |- RASB - berry.png
     
-|- map/
-
-     |- map.html
-     | - map_with_clustered_prices.html
-    
+|- map.html
+|- map_with_clustered_prices.html
+|- Property Investment Profitability Analysis.pdf    
 |- README.md
+
+Our Drafts folder contains our thought process and analysis on how we reached the final .ipynb file.
 
 ### Installation<a name="installation"></a>
 
