@@ -10,6 +10,7 @@
 - [Conclusion](#conclusion)
    - [Key Findings](#key-findings)
    - [Recommendations](#recommendations)
+   - [Limitations](#limitations)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dependecies](#dependecies)
@@ -17,7 +18,7 @@
 - [License](#license)
 
 ## Project Overview<a name="project-overview"></a>
-In this project, we're diving deep into the King County House Sales dataset to understand what makes properties profitable in King County's real estate market. Our main aim is to provide valuable insights to RASB-berry Property Investors who want to make smart investment decisions. We'll be looking at various aspects of properties, like their size, number of bedrooms, and condition, to see which factors have the most impact on the sale prices of houses. By doing this, we hope to help RASB-berry investors optimize their strategies and increase their chances of getting better returns in the King County real estate market.
+In this project, we're diving deep into the [King County House](map.html) Sales dataset to understand what makes properties profitable in King County's real estate market. Our main aim is to provide valuable insights to RASB-berry Property Investors who want to make smart investment decisions. We'll be looking at various aspects of properties, like their size, number of bedrooms, and condition, to see which factors have the most impact on the sale prices of houses. By doing this, we hope to help RASB-berry investors optimize their strategies and increase their chances of getting better returns in the King County real estate market.
 
 ## Business Problem<a name="business-problem"></a>
 ### Stakeholder: RASB-berry Property Investors
@@ -27,7 +28,7 @@ RASB-berry Property investors are looking to optimize their investment strategie
 The dataset contains information about real estate properties in King County, consisting of 21 columns. These columns provide details such as property price, number of bedrooms, bathrooms, square footage, floors, waterfront status, condition, grade, and more. Some columns have missing values, like 'yr_renovated' and 'waterfront.' This dataset is valuable for analyzing the factors influencing property prices and making informed investment decisions in the King County real estate market.
 
 ## Methodology<a name="methodology"></a>
-To help RASB investors make informed decisions, we're using multiple linear regression analysis. Our goal is to build a predictive model for house prices in King County.
+To help RASB-berry Property investors make informed decisions, we're using multiple linear regression analysis. Our goal is to build a predictive model for house prices in King County.
 
 We're focusing on sale prices and studying how they relate to various property attributes. We'll use regression models to quantify these relationships and provide insights for RASB-berry Property Investors.
 
@@ -38,7 +39,7 @@ In this analysis, we developed three models: a baseline model (model 1), model 2
 
 However, model 3 stands out. It boasts a higher R-squared value, indicating improved performance and statistical significance. When we evaluated this model, it exhibited lower MAE, MSE, and RMSE values, indicating better predictive accuracy. 
 
-We strongly recommend RASB investors use this model for predicting sale prices due to its superior performance.
+We strongly recommend RASB-berry Property investors use this model for predicting sale prices due to its superior performance.
 
 ### Key takeways:
 Overall Model Significance: The model as a whole is statistically significant, indicated by the low p-value of the F-statistic (p < 0.001). This suggests that at least one of the independent variables has a significant impact on housing prices.
@@ -74,7 +75,7 @@ Condition and Grade Influence Price: The condition and grade of a property are i
 Budget Planning: With an average housing price of approximately $541,317.18, investors should budget and plan their investments accordingly.
 
    ### Recomendations<a name="recommendations"></a>
-Here are the key recommendations and conclusions for RASB investors based on our analysis:
+Here are the key recommendations and conclusions for RASB-berry Property investors based on our analysis:
 
 Model Selection: We recommend using the third model as it demonstrates superior predictive accuracy with lower Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE) compared to the other two models.
 
@@ -87,8 +88,8 @@ Diversification: Consider diversifying your real estate investments across diffe
 Stay Informed: Continuously monitor local market trends, economic conditions, and regulations to make informed investment decisions.
 
 Budget Planning: Given the average housing price of approximately $541,317.18, plan your investments accordingly and ensure your budget aligns with market conditions.
-## LIMITATIONS<a name="Limitations"></a>
-here are some of the limitations that we found when going through the data:
+## Limitations<a name="limitations"></a>
+Some of the limitations of the analysis were:
 
 Limited Feature Set: The dataset may not include all the relevant features or variables that influence property prices. Other important factors, such as neighborhood crime rates, school quality, and proximity to amenities, may not be present in the dataset.
 Temporal Data: The dataset may not include data on important temporal factors like economic conditions, interest rates, or changes in local regulations that can affect property prices.
@@ -96,8 +97,6 @@ Temporal Data: The dataset may not include data on important temporal factors li
 Sample Size: The dataset's size may be limited, which can affect the robustness of predictive models, especially if you're working with small subsets of data.
 
 Bias: The data may contain bias in terms of property types, locations, or price ranges, which can impact the generalizability of predictive models to other real estate markets.
-
-Categorical Data: The dataset might have categorical variables that require encoding or transformation to be used effectively in predictive models.
 
 Non-Stationarity: Real estate data often exhibits non-stationarity, meaning that trends and relationships can change over time. Accounting for this can be challenging.
 
@@ -116,11 +115,6 @@ To address these limitations and improve the accuracy of predictive projects, yo
 Collecting additional data from various sources to supplement the dataset.
 Performing feature engineering to create new informative features.
 
-
-
-
-
-
   ## Dependecies<a name="dependecies"></a>
 The analysis was conducted using Python with the following libraries:
 
@@ -132,26 +126,35 @@ The analysis was conducted using Python with the following libraries:
 6. Sklearn
    
    ## Folder Structure<a name="folder-structure"></a>
+|-image
 
-|- data/
+       |-RASB - berry.png
 
-    |- kc_house_data
-    |- column_names
-    
-|- analysis/
+|-Non-Technical Presentation
 
-    |- Property Investment Profitability Analysis
-    
-|- image/
+     |-Phase II Slides.pptx
+  
+     |-Phase II Slides.pdf
+     
+|- data
 
-    |- RASB - berry.png
-    
-|- map/
+     |-kc_house_data
+  
+     |-column_names
 
-     |- map.html
-     | - map_with_clustered_prices.html
-    
+|- gitignore
+
+|- LICENSE
+  
+|-Property Investment Profitability Analysis.ipynb
+
+|- Property Investment Profitability Analysis.pdf  
+
 |- README.md
+
+|- map.html
+
+|- map_with_clustered_prices.html
 
 ### Installation<a name="installation"></a>
 
@@ -167,11 +170,7 @@ The analysis was conducted using Python with the following libraries:
    cd PHASE-2-PROJECT
    ```
 
-3. Install the required Python packages:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
+3. Install the required Python packages
 
 ## Usage<a name="usage"></a>
 
