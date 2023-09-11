@@ -126,20 +126,35 @@ The analysis was conducted using Python with the following libraries:
 6. Sklearn
    
    ## Folder Structure<a name="folder-structure"></a>
-- data
--kc_house_data
--column_names
--Property Investment Profitability Analysis.ipynb
--Non-Technical Presentation
--Phase II Slides.pptx
--Phase II Slides.pdf
--image/
--RASB - berry.png
-- map.html
-- map_with_clustered_prices.html
-- Property Investment Profitability Analysis.pdf    
-- README.md
+|-image
 
+       |-RASB - berry.png
+
+|-Non-Technical Presentation
+
+     |-Phase II Slides.pptx
+  
+     |-Phase II Slides.pdf
+     
+|- data
+
+     |-kc_house_data
+  
+     |-column_names
+
+|- gitignore
+
+|- LICENSE
+  
+|-Property Investment Profitability Analysis.ipynb
+
+|- Property Investment Profitability Analysis.pdf  
+
+|- README.md
+
+|- map.html
+
+|- map_with_clustered_prices.html
 
 ### Installation<a name="installation"></a>
 
